@@ -1,0 +1,17 @@
+{
+  "name": "gophim-project",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch database/home/slider.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3",
+    "scss": "^0.2.4"
+  }
+}
