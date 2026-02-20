@@ -1,6 +1,6 @@
 const slider = document.querySelector(".slider");
 import { fetchapi } from "../setapi.js";
-fetchapi("./slider_section1")
+fetchapi("./database/home/slider.json")
 .then((result)=>{
   let html = "";
   result.forEach(item =>{
