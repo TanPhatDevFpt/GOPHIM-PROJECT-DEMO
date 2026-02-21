@@ -206,7 +206,7 @@
 }
 
 .slider__mini {
-  bottom: 15%;
+  bottom: 130px;
   right: 5%;
   display: flex;
   gap: 10px;
