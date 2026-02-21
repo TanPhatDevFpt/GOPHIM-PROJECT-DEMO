@@ -20,7 +20,6 @@
     animation: logoZoom 3s ease forwards;
   }
 }
-
 #splash img {
   width: 300px;
   animation: logoZoom 3s ease forwards;
@@ -61,43 +60,32 @@
   }
 }
 
-// end intro
+// slider animation
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: scale(1.04);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 .slider {
-  position: relative;
-  width: 100%;
-  height: 750px;
-  overflow: hidden;
+  & .active {
+    animation: slideIn 1.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    z-index: 2;
+    display: block !important;
+  }
+  & .slide {
+    display: none;
+    inset: 0;
+    opacity: 0;
+  }
 }
-.slide {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  transform: scale(1.08);
-  animation: cinematic 50s infinite;
-}
-.slide:nth-child(1) {
-  animation-delay: 0s;
-}
-.slide:nth-child(2) {
-  animation-delay: 10s;
-}
-.slide:nth-child(3) {
-  animation-delay: 20s;
-}
-.slide:nth-child(4) {
-  animation-delay: 30s;
-}
-.slide:nth-child(5) {
-  animation-delay: 40s;
-}
-// block click khi slide chưa active
-.slide {
-  pointer-events: none;
-}
-.slide.active {
-  pointer-events: auto;
-}
-//end block click khi slide chưa active
+//end slider animation
+
 .item {
   position: absolute;
   width: 100%;
@@ -168,24 +156,28 @@
       color: #fff;
       text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
       font-weight: 400;
-      width:600px;
+      width: 600px;
       display: -webkit-box;
       overflow: hidden;
       -webkit-box-orient: vertical;
       -webkit-line-clamp: 3;
       line-clamp: 3;
     }
-    & .btn_playvideo{
+    & .btn_playvideo {
       border-radius: 50%;
-      padding:20px;
-      color:#191b24;
+      padding: 20px;
+      color: #191b24;
       text-align: center;
       box-shadow: 0 5px 10px 5px rgba(255, 218, 125, 0.1);
-      background:rgb(254, 207, 89) ;
-      font-size:25px;
-      background: linear-gradient(39deg, rgba(254, 207, 89, 1), rgba(255, 241, 204, 1));
+      background: rgb(254, 207, 89);
+      font-size: 25px;
+      background: linear-gradient(
+        39deg,
+        rgba(254, 207, 89, 1),
+        rgba(255, 241, 204, 1)
+      );
       transition: 0.5s ease;
-      &:hover{
+      &:hover {
         transform: scale(1.1);
         box-shadow: 0 0px 15px 10px rgba(255, 218, 125, 0.244);
       }
@@ -205,7 +197,7 @@
       top: 0;
       background-image: url("https://rophim.com.mx/wp-content/themes/rophimmauvang/assets/css/img/dotted.png");
       background-repeat: repeat;
-      opacity: 1;
+      opacity: 0.2;
       z-index: 1;
     }
 
@@ -249,30 +241,34 @@
     }
   }
 }
-// key frame slider
-@keyframes cinematic {
-  0% {
-    opacity: 0;
-    transform: scale(1.08);
-  }
 
-  4% {
-    opacity: 1;
-    transform: scale(1);
+// slider mini
+.slider__mini {
+  bottom: 15%;
+  right: 5%;
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  z-index: 5;
+  & .active {
+    border: 3px solid rgb(255, 255, 255) !important;
   }
-
-  16% {
-    opacity: 1;
-    transform: scale(1);
-  }
-
-  20% {
-    opacity: 0;
-    transform: scale(1);
-  }
-
-  100% {
-    opacity: 0;
+  & .item {
+    cursor: pointer;
+    position: relative;
+    width: 80px;
+    height: 45px;
+    transition: 0.1s ease;
+    border: 3px solid rgba(255, 255, 255, 0);
+    & img {
+      border-radius: 5px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    &:hover {
+      border: 3px solid white;
+    }
   }
 }
-//end key frame slider
+// end slider mini

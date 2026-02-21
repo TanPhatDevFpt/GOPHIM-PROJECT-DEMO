@@ -7,10 +7,14 @@
 
 body {
   box-sizing: border-box;
-  overflow: hidden;
   margin: 0;
   font-family: "Montserrat", sans-serif;
   background: var(--background-body);
+}
+
+.section1 {
+  overflow: hidden;
+  height: 750px;
 }
 
 .container {
