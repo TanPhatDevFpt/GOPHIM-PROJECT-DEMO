@@ -1,6 +1,6 @@
 const slider = document.querySelector(".slider");
 import { fetchapi } from "../setapi.js";
-fetchapi("./database/home/slider.json")
+fetchapi("https://web-gophim-project-default-rtdb.firebaseio.com/slider_section1.json")
 .then((result)=>{
   let html = "";
   result.forEach(item =>{
