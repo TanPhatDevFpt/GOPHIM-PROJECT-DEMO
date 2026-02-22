@@ -1,0 +1,28 @@
+{
+    "category":[
+        {
+            "title":"Chính Kịch",
+            "gradient":"radial-gradient( at left top, rgba(180, 223, 250, 0.671) 30%, rgba(255, 111, 111, 0.79) 100%);"
+        },
+        {
+            "title":"Hàn Quốc",
+            "gradient":"radial-gradient(at left top, rgb(255 70 131 / 67%) 30%, rgba(255, 111, 111, 0.79) 100%);"
+        },
+        {
+            "title":"Hành Động",
+            "gradient":"radial-gradient(at left top, rgb(202 168 65) 30%, rgba(255, 111, 111, 0.79) 100%);"
+        },
+        {
+            "title":"Kinh Dị",
+            "gradient":"radial-gradient(at left top, rgb(77 0 255) 30%, rgba(255, 111, 111, 0.79) 100%);"
+        },
+        {
+            "title":"Tình Cảm",
+            "gradient":"radial-gradient(at left top, rgb(223 92 222) 30%, rgba(255, 111, 111, 0.79) 100%);"
+        },
+        {
+            "title":"Học Đường",
+            "gradient":"radial-gradient(at left top, rgb(11 255 239 / 67%) 30%, rgba(255, 111, 111, 0.79) 100%);"
+        }
+    ]
+}
