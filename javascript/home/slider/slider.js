@@ -1,7 +1,9 @@
 const slider = document.querySelector(".slider");
 import { fetchapi } from "../setapi.js";
+import { API } from "../containerApi.js";
+const api = `${API.slider}`;
 fetchapi(
-  "https://web-gophim-project-default-rtdb.firebaseio.com/slider_section1.json",
+  api,
 ).then((result) => {
   let html = "";
   let htmlmini = "";
