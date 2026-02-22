@@ -221,7 +221,7 @@
   position: relative;
   width: 80px;
   height: 45px;
-  transition: 0.1s ease;
+  transition: 0.5s ease;
   border: 3px solid rgba(255, 255, 255, 0);
 }
 .slider__mini .item img {
