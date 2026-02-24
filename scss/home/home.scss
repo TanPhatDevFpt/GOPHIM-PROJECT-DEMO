@@ -183,7 +183,13 @@
     }
   }
   & .inner__img {
-    mask-image: linear-gradient(0deg, transparent, #000 16%, #000 100%, transparent);
+    mask-image: linear-gradient(
+      0deg,
+      transparent,
+      #000 16%,
+      #000 100%,
+      transparent
+    );
     width: 100%;
     height: 750px;
     position: relative;
@@ -275,26 +281,27 @@
 
 // section 2
 .section2 {
+  margin-bottom: 50px;
   position: relative;
   z-index: 7;
   margin-top: -80px;
-  & h3{
-    font-size:25px;
+  & h3 {
+    font-size: 25px;
     font-weight: 600;
-    color:white;
+    color: white;
   }
-  & .inner__catergory{
+  & .inner__catergory {
     display: flex;
-    gap:15px;
+    gap: 15px;
     flex-wrap: wrap;
   }
   & .category {
-    & a{
+    & a {
       text-decoration: none;
     }
     width: 13%;
     position: relative;
-    padding:20px;
+    padding: 20px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.8);
     background: radial-gradient(
@@ -304,19 +311,169 @@
     );
     transition: 0.25s ease;
     cursor: pointer;
-    & .title{
-      color:white;
+    & .title {
+      color: white;
       font-weight: 600;
-      font-size:23px;
+      font-size: 23px;
     }
-    & .description{
-      color:white;
-      font-size:14px;
+    & .description {
+      color: white;
+      font-size: 14px;
       font-weight: 600;
     }
-    &:hover{
+    &:hover {
       transform: translateY(-10px);
     }
   }
 }
 //end section 2
+
+// section 3
+.section3 {
+  margin: 0 2%;
+  height: 500px;
+  padding: 3% 2%;
+  border-radius: 20px;
+  background: #282b3a;
+  background: linear-gradient(180deg, #282b3a 70%, rgba(40, 43, 58, 0));
+  & .content__korea {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    & .content {
+      width: 130px;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      & h3 {
+        background: linear-gradient(
+          235deg,
+          rgb(255, 255, 255) 30%,
+          rgb(255, 0, 153) 130%
+        );
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 1px;
+      }
+      & a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        &:hover {
+          color: var(--text-color-menu-list-hover);
+        }
+      }
+    }
+  }
+}
+// end section 3
+
+// swiper
+.swiper-wrapper{
+  display: flex;
+  gap: 10px;
+}
+.swiper {
+  width: 80%;
+  height: 300px;
+}
+
+.swiper-slide {
+  width:360px;  
+  text-align: center;
+  font-size: 18px;
+  background: #282b3a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & .inner__img {
+    height: 206px;
+    position: relative;
+  }
+  & .description {
+    background: #5e6070;
+    padding: 3px 10px;
+    left: 30px;
+    bottom:0;
+    border-radius: 5px 5px 0 0;
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    gap: 5px;
+    & span {
+      font-size: 12px;
+      color: white;
+    }
+    & strong {
+      font-size: 12px;
+      color: white;
+    }
+  }
+  & .inner__content {
+    padding:2%;
+    text-align: left;
+    & a {
+      text-decoration: none;
+      color: white;
+      font-weight: 650;
+      font-size: 14px;
+      &:hover {
+        color: var(--text-color-menu-list-hover);
+      }
+    }
+    & p {
+      color: var(--text-color-base);
+      font-size: 12px;
+      cursor: -webkit-grab;
+    }
+  }
+}
+.inner__img img {
+  border-radius: 10px;
+  width: 99%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-disabled {
+  display: none !important;
+}
+.swiper-button-next {
+  top:40% !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  right: 20px;
+  background: white;
+  border-radius: 50%;
+  & svg {
+    color: #444;
+    height: 34% !important;
+  }
+}
+.swiper-button-prev {
+  top:40% !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  left: 20px;
+  background: white;
+  border-radius: 50%;
+  & svg {
+    color: #444;
+    height: 34% !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .swiper-button-next {
+    right: 20px;
+    transform: rotate(90deg);
+  }
+
+  .swiper-button-prev {
+    left: 20px;
+    transform: rotate(90deg);
+  }
+}
+// end swiper

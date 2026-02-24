@@ -18,6 +18,12 @@
     <link rel="stylesheet" href="./css/home/base.css" />
     <link rel="stylesheet" href="./css/home/home.css" />
     <link rel="stylesheet" href="./css/home/menu/menu.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <!-- end link swiper -->
   </head>
   <body>
     <!-- intro -->
@@ -81,9 +87,27 @@
         </div>
       </div>
     </div>
+    <div class="section3">
+      <div class="content__korea">
+        <div class="content">
+          <h3>Phim Hàn Quốc Mới</h3>
+          <a href="#">Xem toàn bộ <i class="fa-solid fa-angle-right"></i></a>
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
     <!--end Main -->
 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <!-- javascript -->
+    <script type="module" src="./javascript/home/apiswiper/swiperkorea.js"></script>
+    <script src="./javascript/home/swiper/slidersection3.js"></script>
     <script type="module" src="./javascript/home/category/category.js"></script>
     <script type="module" src="./javascript/home/containerApi.js"></script>
     <script type="module" src="./javascript/home/slider/slider.js"></script>
