@@ -5,7 +5,7 @@ const api = `${API.category}`;
 fetchapi(api)
 .then((result)=>{
     let htmlcategory = "";
-    result.forEach(item=>{
+    result.category.forEach(item=>{
         htmlcategory += `
         <div class="category" style="background: ${item.gradient}">
             <a href="#${item.title}" class="category__item">

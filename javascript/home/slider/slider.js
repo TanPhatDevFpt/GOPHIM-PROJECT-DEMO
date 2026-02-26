@@ -8,7 +8,7 @@ fetchapi(
   let html = "";
   let htmlmini = "";
   const slidermini = document.querySelector(".slider__mini");
-  result.forEach((item) => {
+  result.slider_section1.forEach((item) => {
     html += `<div class="slide ${item.slider == "active" ? "active" : ""}">
           <div class="item">
             <div class="inner__img">
