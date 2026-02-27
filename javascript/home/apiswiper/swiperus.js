@@ -1,7 +1,7 @@
 import { fetchapi } from "../setapi.js";
 import { API } from "../containerApi.js";
-const swiperWrapper = document.querySelector(".content__china .swiper-wrapper");
-const api = `${API.swiperchina}`;
+const swiperWrapper = document.querySelector(".content__us .swiper-wrapper");
+const api = `${API.swiperus}`;
 fetchapi( api)
   .then((data) => {
     let html = "";

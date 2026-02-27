@@ -1,12 +1,12 @@
 // menu
-
 header {
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
   width: 100%;
   top: 0;
   position: fixed;
   z-index: 999999;
   & .inner__menu {
-    padding-top: 10px;
     align-items: center;
     display: flex;
     gap: 1.5rem;
@@ -61,5 +61,8 @@ header {
     }
   }
 }
+.active{
+    background:var(--background-menu-scroll);
+  }
 
 //end menu

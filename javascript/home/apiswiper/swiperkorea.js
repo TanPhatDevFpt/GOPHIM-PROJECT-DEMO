@@ -19,7 +19,7 @@ fetchapi( api)
                   </div>
                 </div>
                 <div class="inner__content">
-                  <a href="#">${item.title}</a>
+                  <a href="#${item.title}">${item.title}</a>
                   <p>${item.tag}</p>
                 </div>
               </a>
