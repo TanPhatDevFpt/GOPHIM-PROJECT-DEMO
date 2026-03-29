@@ -353,7 +353,7 @@
 }
 
 .swiper-slide {
-  width: 392px !important;
+  width: 25% !important;
   text-align: center;
   font-size: 18px;
   background: rgba(40, 43, 58, 0);

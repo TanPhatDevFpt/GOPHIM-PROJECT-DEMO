@@ -1,0 +1,74 @@
+{
+    "data":[
+        {
+            "id":1,
+            "img":"https://rophim.com.mx/wp-content/uploads/2025/09/tham-tu-lung-danh-conan-14026-thumb.webp",
+            "title":"Thám Tử Lừng Danh Conan",
+            "tm":"PD,TM Tập 1063",
+            "author":"Detective Conan"
+        },
+        {
+            "id":2,
+            "img":"https://img.ophim.live/uploads/movies/tieng-yeu-nay-anh-dich-duoc-khong-thumb.jpg",
+            "title":"Tiếng yêu này anh dịch được không?",
+            "tm":"PD,TM Tập Full",
+            "author":"Can This Love Be Translated?"
+        },
+        {
+            "id":3,
+            "img":"https://img.ophim.live/uploads/movies/linh-moi-phan-8-thumb.jpg",
+            "title":"Lính Mới (Phần 8)",
+            "pd":"PD Tập Full",
+            "author":"The Rookie (Season 8)"
+        },
+        {
+            "id":4,
+            "img":"https://img.ophim.live/uploads/movies/mua-ruc-ro-cua-em-thumb.jpg",
+            "title":"Mùa Rực Rỡ Của Em",
+            "pd":"PD Tập Full",
+            "author":"In Your Radiant Season"
+        },
+        {
+            "id":5,
+            "img":"https://img.ophim.live/uploads/movies/hell-mode-game-thu-xuat-chung-tung-hoanh-chon-di-gioi-hon-nguyen-thumb.jpg",
+            "title":"Hell Mode Game Thủ Xuất Chúng Tung Hoành Chốn Dị Giới Hỗn Nguyên",
+            "pd":"PD Tập Full",
+            "author":"Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing"
+        },
+        {
+            "id":6,
+            "img":"https://img.ophim.live/uploads/movies/vung-dat-madison-phan-1-thumb.jpg",
+            "title":"Vùng Đất Madison (Phần 1)",
+            "pd":"PD Tập Full",
+            "author":"The Madison (Season 1)"
+        },
+        {
+            "id":7,
+            "img":"https://img.ophim.live/uploads/movies/daredevil-tai-xuat-phan-2-thumb.jpg",
+            "title":"Daredevil: Tái Xuất (Phần 2)",
+            "pd":"PD Tập Full",
+            "author":"Daredevil: Born Again (Season 2)"
+        },
+        {
+            "id":8,
+            "img":"https://img.ophim.live/uploads/movies/tuyen-thu-de-mui-vi-chien-thang-thumb.jpg",
+            "title":"Tuyển Thủ Dê: Mùi Vị Chiến Thắng",
+            "pd":"PD Tập Full",
+            "author":"GOAT"
+        },
+        {
+            "id":9,
+            "img":"https://img.ophim.live/uploads/movies/tu-la-vo-than-phan-2-thumb.jpg",
+            "title":"Tu La Võ Thần (Phần 2)",
+            "pd":"PD Tập Full",
+            "author":"Martial God Asura (Season 2)"
+        },
+        {
+            "id":10,
+            "img":"https://img.ophim.live/uploads/movies/tuyet-the-chien-hon-thumb.jpg",
+            "title":"Tuyệt Thế Chiến Hồn",
+            "pd":"PD Tập Full",
+            "author":"Peerless Battle Spirit"
+        }
+    ]
+}

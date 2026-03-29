@@ -15,9 +15,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/home/base.css" />
     <link rel="stylesheet" href="./css/home/home.css" />
     <link rel="stylesheet" href="./css/home/menu/menu.css" />
+    <link rel="stylesheet" href="./css/home/section4/section4.css" />
     <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
@@ -101,7 +103,7 @@
       </div>
       <div class="content__china">
         <div class="content">
-          <h3>Phim Hàn Quốc Mới</h3>
+          <h3>Phim Trung Quốc Mới</h3>
           <a href="#">Xem toàn bộ <i class="fa-solid fa-angle-right"></i></a>
         </div>
         <div class="swiper">
@@ -122,6 +124,23 @@
         </div>
       </div>
     </div>
+    <div class="section4">
+      <div class="container">
+        <div class="top-movie">
+          <div class="title">
+            <h2>Đây Rồi Top Phim Xem Nhiều Nhất</h2>
+            <div class="detail">
+              <a href="#">Xem Thêm</a>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+          </div>
+        </div>
+      </div>
+    </div>
     <!--end Main -->
 
     <!-- Swiper JS -->
@@ -136,7 +155,11 @@
       type="module"
       src="./javascript/home/apiswiper/swiperchina.js"
     ></script>
-    <script type="module" src="./javascript/home/apiswiper/swiperus.js"></script>
+    <script
+      type="module"
+      src="./javascript/home/apiswiper/swiperus.js"
+    ></script>
+    <script type="module" src="./javascript/home/apiswiper/swipertopmovie.js"></script>
     <script src="./javascript/home/swiper/slidersection3.js"></script>
     <script type="module" src="./javascript/home/category/category.js"></script>
     <script type="module" src="./javascript/home/containerApi.js"></script>

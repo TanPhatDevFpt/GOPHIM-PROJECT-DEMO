@@ -5,4 +5,5 @@ export const API ={
     swiperkorea: `${api_base}/swiper_korea.json`,
     swiperchina: `${api_base}/swiper_china.json`,
     swiperus: `${api_base}/swiper_us.json`,
+    swipertopmovie: `${api_base}/topmovie.json`,
 }

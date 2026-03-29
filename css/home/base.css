@@ -4,6 +4,8 @@
   --text-color-menu-list: white;
   --text-color-menu-list-hover: #ffd875;
   --text-color-base:#aaa;
+  --new-pin-tm:#2ca35d;
+  --new-pin-pd:#5e6070;
   --background-menu-scroll:#0f111a;
 }
 
@@ -22,6 +24,10 @@ body {
 
 .container {
   padding: 0 2%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /*# sourceMappingURL=base.css.map */
