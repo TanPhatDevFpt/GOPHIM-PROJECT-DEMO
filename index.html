@@ -15,7 +15,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/home/base.css" />
     <link rel="stylesheet" href="./css/home/home.css" />
     <link rel="stylesheet" href="./css/home/menu/menu.css" />
@@ -70,10 +73,15 @@
     <!-- end menu -->
 
     <!-- Main -->
+
+    <!-- section 1 -->
     <div class="section1">
       <div class="slider"></div>
       <div class="slider__mini"></div>
     </div>
+    <!--end section 1 -->
+
+    <!--section 2 -->
     <div class="section2">
       <div class="container">
         <h3>Bạn Đang Quan Tâm Gì?</h3>
@@ -89,6 +97,8 @@
         </div>
       </div>
     </div>
+
+    <!--section 3 -->
     <div class="section3">
       <div class="content__korea">
         <div class="content">
@@ -124,6 +134,9 @@
         </div>
       </div>
     </div>
+    <!--end section 3 -->
+
+    <!-- section 4 -->
     <div class="section4">
       <div class="container">
         <div class="top-movie">
@@ -136,11 +149,24 @@
           </div>
         </div>
         <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
+          <div class="swiper-wrapper"></div>
+        </div>
+        <div class="new-movie">
+          <div class="title">
+            <h2>Phim Điện Ảnh Mới Tinhhh</h2>
+            <div class="detail">
+              <a href="#">Xem Thêm</a>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
           </div>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper newmovie"></div>
         </div>
       </div>
     </div>
+    <!-- section 4 -->
+
     <!--end Main -->
 
     <!-- Swiper JS -->
@@ -159,7 +185,11 @@
       type="module"
       src="./javascript/home/apiswiper/swiperus.js"
     ></script>
-    <script type="module" src="./javascript/home/apiswiper/swipertopmovie.js"></script>
+    <script
+      type="module"
+      src="./javascript/home/apiswiper/swipertopmovie.js"
+    ></script>
+    <script type="module" src="./javascript/home/apiswiper/swipernewmovie.js"></script>
     <script src="./javascript/home/swiper/slidersection3.js"></script>
     <script type="module" src="./javascript/home/category/category.js"></script>
     <script type="module" src="./javascript/home/containerApi.js"></script>

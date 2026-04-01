@@ -1,0 +1,74 @@
+{
+    "data":[
+        {
+            "id":1,
+            "img":"https://img.ophim.live/uploads/movies/kurukshetra-dai-chien-mahabharata-thumb.jpg",
+            "title":"Kurukshetra: Đại Chiến Mahabharata",
+            "pd":"PD Tập Full",
+            "author":"Kurukshetra"
+        },
+        {
+            "id":2,
+            "img":"https://img.ophim.live/uploads/movies/who-could-kill-a-sweet-old-lady-thumb.jpg",
+            "title":"Who Could Kill a Sweet Old Lady",
+            "pd":"PD Tập Full",
+            "author":"Who Could Kill a Sweet Old Lady"
+        },
+        {
+            "id":3,
+            "img":"https://img.ophim.live/uploads/movies/chang-the-kiem-soat-con-tim-thumb.jpg",
+            "title":"Chẳng Thể Kiểm Soát Con Tim",
+            "pd":"PD Tập Full",
+            "author":"Lose My Heart to You"
+        },
+        {
+            "id":4,
+            "img":"https://img.ophim.live/uploads/movies/muc-than-ky-thumb.jpg",
+            "title":"Mục Thần Ký",
+            "pd":"PD Tập Full",
+            "author":"Tales of Qin Mu"
+        },
+        {
+            "id":5,
+            "img":"https://img.ophim.live/uploads/movies/hoc-vien-anh-hung-vigilantes-phan-2-thumb.jpg",
+            "title":"Học Viện Anh Hùng: Vigilantes (Phần 2)",
+            "pd":"PD Tập Full",
+            "author":"My Hero Academia: Vigilantes Season 2"
+        },
+        {
+            "id":6,
+            "img":"https://img.ophim.live/uploads/movies/avatar-3-lua-va-tro-tan-thumb.jpg",
+            "title":"Avatar 3: Lửa và Tro Tàn",
+            "pd":"PD Tập Full",
+            "author":"Avatar: Fire and Ash"
+        },
+        {
+            "id":7,
+            "img":"https://img.ophim.live/uploads/movies/hiep-si-mat-na-zeztz-thumb.jpg",
+            "title":"Hiệp Sĩ Mặt Nạ ZEZTZ",
+            "pd":"PD Tập Full",
+            "author":"Kamen Rider ZEZTZ"
+        },
+        {
+            "id":8,
+            "img":"https://img.ophim.live/uploads/movies/the-fires-thumb.jpg",
+            "title":"The Fires",
+            "pd":"PD Tập Full",
+            "author":"The Fires"
+        },
+        {
+            "id":9,
+            "img":"https://img.ophim.live/uploads/movies/eva-mai-mai-phan-4-thumb.jpg",
+            "title":"Eva mãi mãi (Phần 4)",
+            "pd":"PD Tập Full",
+            "author":"Eva Lasting (Season 4)"
+        },
+        {
+            "id":10,
+            "img":"https://img.ophim.live/uploads/movies/cuong-phong-bong-toi-phan-4-thumb.jpg",
+            "title":"Cuồng Phong Bóng Tối (Phần 4)",
+            "pd":"PD Tập Full",
+            "author":"Dark Winds (Season 4)"
+        }
+    ]
+}
